@@ -1,2 +1,3 @@
 # Image_recognition_cnn_cifar10
-It will be split into 3 files: model trained/saved, model loaded and the Fuction loading the trained model 
+Convolutional neural network recognizing image of 10 classes</br> Uses ***cifar10*** lib</br>
+It will be split into 3 files: </br>- model trained/saved</br>- model loaded </br>- the Fuction loading the trained model 
