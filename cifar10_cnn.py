@@ -49,12 +49,12 @@ model.add(Dense(10, activation='softmax'))
 model.summary()
 
 model.compile(loss="categorical_crossentropy",
-              optimizer=Adam(learning_rate=0.01),
+              optimizer=Adam(learning_rate=0.0001),
               metrics=["accuracy"])
 model.fit(x_train10,
           y_train10,
           batch_size=batch_size,
-          epochs=1,
+          epochs=100,
           validation_data=(x_test10, y_test10),
           verbose=1)
 
